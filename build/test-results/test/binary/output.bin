@@ -1,6 +1,10 @@
 Maximum = 2.4
 Maximum = 3.5
-Maximum = 9
-Maximum = 4.4
-Maximum = 8
-Maximum = 7
+Maximum = banana
+Maximum = 9
+Maximum = 4.4
+Maximum = apple
+Maximum = 8
+	Maximum = Peach
+
+Maximum = 7

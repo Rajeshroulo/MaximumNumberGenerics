@@ -45,4 +45,26 @@ public class MaximumTest {
         Float max = maximum.findMax();
         Assert.assertEquals(4.4, max, 0.001);
     }
+
+    @Test
+    public void givenMaxStringAt1stPosition_ShouldReturnSameString() {
+        Maximum<String> maximum = new Maximum<>("banana","Banana","Peach");
+        String max = maximum.findMax();
+        Assert.assertEquals("banana", max);
+    }
+
+    @Test
+    public void givenMaxStringAt2ndPosition_ShouldReturnSameString() {
+        Maximum<String> maximum = new Maximum<>("Banana","apple","Peach");
+        String max = maximum.findMax();
+        Assert.assertEquals("apple", max);
+    }
+
+    @Test
+    public void givenMaxStringAtlastPosition_ShouldReturnSameString() {
+        Maximum<String> maximum = new Maximum<>("Banana","Apple","Peach");
+        String max = maximum.findMax();
+        Assert.assertEquals("Peach", max);
+    }
+
 }

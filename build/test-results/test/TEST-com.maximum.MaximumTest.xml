@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.maximum.MaximumTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-07T06:25:33" hostname="DESKTOP-VV7QFND" time="0.037">
+<testsuite name="com.maximum.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-07T06:45:07" hostname="DESKTOP-VV7QFND" time="0.036">
   <properties/>
-  <testcase name="givenMaxFloatAt1stPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.024"/>
-  <testcase name="givenMaxFloatAt2ndPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.003"/>
+  <testcase name="givenMaxFloatAt1stPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.026"/>
+  <testcase name="givenMaxFloatAt2ndPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.001"/>
+  <testcase name="givenMaxStringAt1stPosition_ShouldReturnSameString" classname="com.maximum.MaximumTest" time="0.0"/>
   <testcase name="givenMaxIntegerAt1stPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.001"/>
-  <testcase name="givenMaxFloatAt3rdPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.0"/>
-  <testcase name="givenMaxIntegerAt2ndPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.001"/>
-  <testcase name="givenMaxIntegerAt3rdPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.001"/>
+  <testcase name="givenMaxFloatAt3rdPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.001"/>
+  <testcase name="givenMaxStringAt2ndPosition_ShouldReturnSameString" classname="com.maximum.MaximumTest" time="0.0"/>
+  <testcase name="givenMaxIntegerAt2ndPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.0"/>
+  <testcase name="givenMaxStringAtlastPosition_ShouldReturnSameString" classname="com.maximum.MaximumTest" time="0.0"/>
+  <testcase name="givenMaxIntegerAt3rdPosition_ShouldReturnSameNumber" classname="com.maximum.MaximumTest" time="0.0"/>
   <system-out><![CDATA[Maximum = 2.4
 Maximum = 3.5
+Maximum = banana
 Maximum = 9
 Maximum = 4.4
+Maximum = apple
 Maximum = 8
+Maximum = Peach
 Maximum = 7
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
