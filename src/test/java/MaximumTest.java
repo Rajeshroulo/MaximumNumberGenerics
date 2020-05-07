@@ -7,14 +7,14 @@ public class MaximumTest {
 
     @Test
     public void givenMaxIntegerAt1stPosition_ShouldReturnSameNumber() {
-        Maximum<Integer> maximum = new Maximum<>(9,7,4,5,3);
+        Maximum<Integer> maximum = new Maximum<>(9,7,4,5,6,3);
         int max = maximum.findMax();
         Assert.assertEquals(9,max);
     }
 
     @Test
     public void givenMaxIntegerAt2ndPosition_ShouldReturnSameNumber() {
-        Maximum<Integer> maximum = new Maximum<>(3,8,4,2,1);
+        Maximum<Integer> maximum = new Maximum<>(3,8,4,2,5,1);
         int max = maximum.findMax();
         Assert.assertEquals(8,max);
     }
