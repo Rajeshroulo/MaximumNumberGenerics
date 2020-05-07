@@ -4,7 +4,7 @@ public class Maximum<E extends Comparable > {
 
     E[] values;
 
-    public Maximum(E ...values) {
+    public Maximum(E... values) {
         this.values = values;
     }
 
@@ -14,7 +14,7 @@ public class Maximum<E extends Comparable > {
 
     public <E extends Comparable> E findMax(E[] values) {
         E maximum = values[0];
-        for ( int i=1; i < values.length; i++) {
+        for (int i = 1; i < values.length; i++) {
             if (values[i].compareTo(maximum) > 0)
                 maximum = values[i];
         }
@@ -23,7 +23,7 @@ public class Maximum<E extends Comparable > {
     }
 
     public <E> void printMax(E max) {
-        System.out.println("Maximum = " +max);
+        System.out.println("Maximum = " + max);
     }
 
 }
