@@ -1,4 +1,4 @@
-package com.maximum;
+package com.maximumnumber;
 
 import org.junit.Assert;
 import org.junit.Test;

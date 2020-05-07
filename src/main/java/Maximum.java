@@ -1,4 +1,4 @@
-package com.maximum;
+package com.maximumnumber;
 
 public class Maximum<E extends Comparable > {
 
